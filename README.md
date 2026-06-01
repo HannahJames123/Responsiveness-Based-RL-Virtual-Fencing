@@ -88,3 +88,33 @@ Only the main notebook and this README are included:
 ├── Rl_paper_final_code.ipynb      # Main notebook containing simulation, RL training, evaluation, and plotting code
 └── README.md                      # Repository documentation
 
+## Requirements
+
+The notebook uses standard Python scientific computing and plotting libraries, including:
+
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `scipy`
+- `pickle`
+- `json`
+
+Additional packages may be required depending on the local environment used to run the notebook.
+
+## Running the Notebook
+
+Open `Rl_paper_final_code.ipynb` in Jupyter, JupyterLab, Google Colab, or another compatible Python notebook environment.
+
+Run the cells sequentially to reproduce the simulation workflow, training process, evaluation outputs, and figures.
+
+Because reinforcement-learning results depend on random initialization and exploration, the notebook uses defined random seeds where possible to support reproducibility.
+
+## Citation
+
+If using or adapting this code, please cite the associated manuscript:
+
+**A Simulation Study of Responsiveness-Based Virtual Fencing: A Reinforcement Learning Approach to Precision Livestock Management**
+
+## Disclaimer
+
+This repository provides code for a simulated proof-of-concept study. It does not provide a deployable animal-control system, animal-use protocol, or validated virtual-fencing cue recommendation. No live animals are used in the simulation.
