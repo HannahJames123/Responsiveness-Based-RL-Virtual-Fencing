@@ -88,6 +88,8 @@ Only the main notebook and this README are included:
 ├── Rl_paper_final_code.ipynb      # Main notebook containing simulation, RL training, evaluation, and plotting code
 └── README.md                      # Repository documentation
 
+```markdown
+
 ## Requirements
 
 The notebook uses standard Python scientific computing and plotting libraries, including:
