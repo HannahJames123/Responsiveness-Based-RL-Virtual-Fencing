@@ -119,3 +119,5 @@ If using or adapting this code, please cite the associated manuscript:
 ## Disclaimer
 
 This repository provides code for a simulated proof-of-concept study. It does not provide a deployable animal-control system, animal-use protocol, or validated virtual-fencing cue recommendation. No live animals are used in the simulation.
+
+Note: Some internal code variables may retain earlier development labels such as “personality,” “reactive,” or “low_reactive.” In the manuscript and interpretation, these correspond to simulated responsiveness classes: high-responsive, moderate-responsive, and low-responsive cattle agents. These terms refer to model categories and should not be interpreted as validated animal temperament or personality traits.
